@@ -5,7 +5,7 @@ TGTDIR=qrcodes
 # must be LMQH
 ERR_CORRECTION=H 
 
-command -v qrencode > /dev/null || echo "qrencode must be installed" || exit
+command -v qrencode > /dev/null || echo "qrencode must be installed" ; exit
 
 test -d $TGTDIR || mkdir $TGTDIR
 
