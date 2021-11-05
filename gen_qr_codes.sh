@@ -12,6 +12,6 @@ test -d $TGTDIR || mkdir $TGTDIR
 for file in docs/*md; do
     slug=$(basename $file .md)
     for type in PNG SVG; do
-        qrencode -l $ERR_CORRECTION -o $TGTDIR/$slug.$type $BASE/$slug
+        qrencode -l $ERR_CORRECTION -t $type -o $TGTDIR/$slug.$type $BASE/$slug
     done
 done
