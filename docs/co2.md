@@ -4,6 +4,7 @@ Die Ampel zeigt den aktuellen Zustand der Luftqualität an.
 Bei rot sollte gelüftet werden, bis die Lampe wieder grün
 wird.
 
+Danke an Sioud Zoro Sado aus der ITA18 für den Zusammenbau.
 
 ## Links
 
